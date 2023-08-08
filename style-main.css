@@ -1,0 +1,69 @@
+body {
+    background-color: #111144;
+    color: #aaaaaa;
+}
+
+.header-main {
+    position: absolute;
+    top: 0px;
+    left: 0%;
+    width: 100vw;
+    height: 100px;
+    background-image: linear-gradient(to bottom, #282828 80%, #28282800);
+}
+
+.footer-main {
+    position: fixed;
+    bottom: 0px;
+    left: 0%;
+    transition: 0.5s;
+    transition-property: bottom;
+    width: 100vw;
+    height: 40px;
+    background-color: #282828;
+    align-content: center;
+}
+
+.footer-disclaimer {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.flag-3-2 {
+    width: 12vw;
+    height: 8vw;
+}
+
+.flag-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.wiki-logo-button {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    top: 10px;
+    left: 10px;
+    border-radius: 5px;
+}
+
+.page-title {
+    position: absolute;
+    height: 40px;
+    width: 100%;
+    z-index: 1;
+    color: transparent;
+    mix-blend-mode: screen;
+}
+
+.page {
+    position: absolute;
+    height: auto;
+    top: 180px;
+    width: 100%;
+    background-color: #282828;
+}
